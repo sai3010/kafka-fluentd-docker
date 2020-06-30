@@ -5,6 +5,7 @@
 - Assuming that you have kafka broker along with zookeeper running
 - Knowledge of Docker and fluentd
 - Make sure to edit the fluentd.conf as per your needs ( the default one is just a template to   help you get started)
+- Refer [fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) to make necessary changes in the conf file.
 
 # How to build docker
 - sudo docker build -t kafka-fluentd-docker .
